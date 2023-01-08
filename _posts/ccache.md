@@ -3,7 +3,7 @@ title: 使用Ccache来加速内核的编译
 date: 2020-06-20 12:51
 categories: Kernel
 tags: 偷懒
-description: 编译一个Android内核,我需要8min+,太久了,无法忍受.使用Ccache来加速第二次的内核编译时间
+excerpt: "编译一个Android内核,我需要8min+,太久了,无法忍受.使用Ccache来加速第二次的内核编译时间"
 ---
 
 编译一个Android内核,我需要8min+,太久了,无法忍受.
@@ -13,7 +13,7 @@ description: 编译一个Android内核,我需要8min+,太久了,无法忍受.使
 ccache 工具通过将头文件高速缓存到源文件之中而改进了构建性能，因而通过减少每一步编译时添加头文件所需要的时间而提高了构建速度.
 
 ## 安装Ccache
-```
+```shell
 sudo apt install ccache
 ```
 

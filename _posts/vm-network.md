@@ -5,7 +5,7 @@ categories:
     - Fix Error
 tag:
     - Kali
-description: 网络配置不当
+excerpt: "网络配置不当"
 ---
 # 解决方法
 

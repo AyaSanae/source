@@ -7,9 +7,7 @@ categories:
     - Kernel
 tags:
     - Git
-description: 无非就是GIT的运用
-cover: /assets/merge.jpg
-
+excerpt: "无非就是GIT的运用"
 ---
 ## 首次合并
 ```

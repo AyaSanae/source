@@ -5,7 +5,7 @@ categories:
     Ubuntu
 tags:
     Ubuntu
-description: 在腾讯云搞了台服务器,但是内存只有1G,很容易引发OOM;swap可以将硬盘空间转成内存空间但是速度肯定比不上内存,但至少不会OOM；
+excerpt: "在腾讯云搞了台服务器,但是内存只有1G,很容易引发OOM;swap可以将硬盘空间转成内存空间但是速度肯定比不上内存,但至少不会OOM；"
 ---
 
 ## 0x01 创建swap文件

@@ -2,8 +2,7 @@
 title: About
 date: 2022-10-25 14:43:04
 ---
-## Hi，I am AyaSanae.
-
+<div style="color: red;">Hi，I am AyaSanae.</div>
 ---
 
 ## Blog可能的内容

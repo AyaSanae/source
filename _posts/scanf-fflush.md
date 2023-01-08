@@ -3,12 +3,12 @@ title: scanf()与循环与缓冲区
 date: 2022-10-27 20:43:06
 tags: C
 catagories: 编程语言
-description: 有时Scanf()与循环结合判断输入的值是否合理时会陷入死循环
+excerpt: "有时Scanf()与循环结合判断输入的值是否合理时会陷入死循环"
 ---
 有时Scanf()与循环结合判断输入的值是否合理时会陷入死循环
 
 ## Source
-```
+```c
     float course_1=-1,course_2=-1,result;
     while(1){
         printf("Please enter the score of the first course:");
@@ -59,7 +59,7 @@ Please enter the score of the first course:Please enter the correct score!
 
 ## 解决
 可以使用fflush(stdin)来清空缓冲区.
-```
+```c
    float course_1=-1,course_2=-1,result;
     while(1){
         printf("Please enter the score of the first course:");

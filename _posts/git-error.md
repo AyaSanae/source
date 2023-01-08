@@ -5,7 +5,7 @@ categories:
     Fix Error
 tags:
     Git
-description: refusing to merge unrelated histories
+excerpt: "refusing to merge unrelated histories"
 ---
 
 ## 原因

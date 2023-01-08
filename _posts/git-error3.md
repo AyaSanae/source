@@ -5,7 +5,7 @@ categories:
     Fix Error
 tags:
     Git
-description: error:RPC failed;curl 56 GnuTLS recv error (-9)
+excerpt: "error:RPC failed;curl 56 GnuTLS recv error (-9)"
 ---
 
 错误提示:

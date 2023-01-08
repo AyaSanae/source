@@ -5,7 +5,7 @@ categories:
     Fix Error
 tags:
     Git
-description: shallow update not allowed 
+excerpt: "shallow update not allowed"
 ---
 
 ## 原因

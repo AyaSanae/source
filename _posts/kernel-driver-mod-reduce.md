@@ -5,7 +5,7 @@ categories:
     - Kernel
 tags:
     - 优化
-description: 去除编译时产生的多余符号.
+excerpt: "去除编译时产生的多余符号."
 ---
 
 ## 原理:

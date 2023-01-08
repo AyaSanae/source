@@ -7,7 +7,7 @@ categories:
 tags:
     Android
     Kernel
-description: 手工提取
+excerpt: "手工提取"
 ---
 
 ## 1.找到内核位置

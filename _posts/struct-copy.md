@@ -3,11 +3,11 @@ title: 结构体的深拷贝与浅拷贝
 date: 2022-11-22 19:18:36
 tags: C/C++
 catagories: 编程语言
-description: 各自优缺点
+excerpt: "各自优缺点"
 ---
 浅拷贝:将结构体变量内存空间内容复制一份放到另一个相同类型的结构体变量内存空间中.
 比如我们有
-```
+```c++
 struct stu{
     int num;
 }a,b;
@@ -17,14 +17,14 @@ struct stu{
 这是结构体间的默认赋值方式,一般来说不会出现问题,但是如果结构体里有指针成员,这种方式会带来多次释放堆区空间的问题和一定的风险.
 
 如果说stu里有一个指针成员：
-```
+```c++
     struct stu{
         int num;
         char *name;
     }a,b;
 ```
 这时候给a初值,并令b=a
-```
+```c++
     a.num = 100;
     a.name = new char[32];
     strcpy(a.name,"bob");
@@ -61,7 +61,7 @@ RT:
 ![深拷贝](/assets/struct-copy/3.jpg)
 
 代码实现:
-```
+```c++
 #include <iostream>
 #include <string.h>
 

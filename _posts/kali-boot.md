@@ -5,7 +5,7 @@ categories:
     Fix Error
 tags:
     Kali
-description: 玩着游戏CPU瓶颈十分气人，跑去BISO怒超5GHZ,在Win10引导界面挂了,降到4.8Ghz后稳定,可是Win10莫名其妙的就挂了.由于我是Win10,Kali双系统直接重装后Kali的GRUB引导没了,造孽啊.
+excerpt: "玩着游戏CPU瓶颈十分气人，跑去BISO怒超5GHZ,在Win10引导界面挂了,降到4.8Ghz后稳定,可是Win10莫名其妙的就挂了.由于我是Win10,Kali双系统直接重装后Kali的GRUB引导没了,造孽啊."
 ---
 
 ## 正文:
